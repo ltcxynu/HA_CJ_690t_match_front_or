@@ -1,0 +1,41 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/ip/ila_2/sim/ila_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/ip/vio_2/sim/vio_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vio_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/ip/fifo512bit_1k/sim/fifo512bit_1k.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo512bit_1k
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/mem_1r1w_2000x509.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_1r1w_2000x512
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pixl_top_virtual
+WARNING: [VRFC 10-3248] data object 'pix_rdata1_odd' is already declared [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:379]
+WARNING: [VRFC 10-3703] second declaration of 'pix_rdata1_odd' ignored [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:379]
+WARNING: [VRFC 10-3248] data object 'pix_rdata1_even' is already declared [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:380]
+WARNING: [VRFC 10-3703] second declaration of 'pix_rdata1_even' ignored [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:380]
+INFO: [VRFC 10-2458] undeclared symbol pix_rdata2_odd, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:410]
+INFO: [VRFC 10-2458] undeclared symbol pix_rdata2_even, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:424]
+INFO: [VRFC 10-2458] undeclared symbol clk_spi, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:873]
+INFO: [VRFC 10-2458] undeclared symbol mosi, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:874]
+INFO: [VRFC 10-2458] undeclared symbol cs1, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:877]
+INFO: [VRFC 10-2458] undeclared symbol cs2, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:878]
+INFO: [VRFC 10-2458] undeclared symbol cs3, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:879]
+INFO: [VRFC 10-2458] undeclared symbol cs4, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:880]
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pp_pix.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pp_pix
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pp_ram2_r_w_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pp_ram2_r_w_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/imports/code/spi_config.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_config
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/tb_statemachine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_statemachine
+INFO: [VRFC 10-2458] undeclared symbol sys_main_clk, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/tb_statemachine.v:20]
+INFO: [VRFC 10-2458] undeclared symbol pixl_data_out, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/tb_statemachine.v:47]
+INFO: [VRFC 10-2458] undeclared symbol pixl_data_out_en, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/tb_statemachine.v:48]

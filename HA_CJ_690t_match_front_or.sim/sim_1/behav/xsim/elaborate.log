@@ -1,0 +1,36 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/xilinx/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_6 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_statemachine_behav xil_defaultlib.tb_statemachine xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 1920 for port 'pixl_data_out' [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/tb_statemachine.v:47]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'pix_rdata_o' [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:410]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 512 for port 'pix_rdata_o' [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v:424]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=20.0,...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=20.0,...
+Compiling module xil_defaultlib.clk_wiz_1_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_1
+Compiling module xil_defaultlib.pp_ram2_r_w_ctrl(ADDR_WIDTH=9,DA...
+Compiling module xil_defaultlib.mem_1r1w_2000x512
+Compiling module xil_defaultlib.pp_pix
+Compiling module fifo_generator_v13_2_6.fifo_generator_v13_2_6_sync_stag...
+Compiling module fifo_generator_v13_2_6.fifo_generator_v13_2_6_bhv_ver_a...
+Compiling module fifo_generator_v13_2_6.fifo_generator_v13_2_6_CONV_VER(...
+Compiling module fifo_generator_v13_2_6.fifo_generator_vlog_beh(C_DATA_C...
+Compiling module xil_defaultlib.fifo512bit_1k
+Compiling module xil_defaultlib.vio_2
+Compiling module xil_defaultlib.ila_2
+Compiling module xil_defaultlib.spi_config
+Compiling module xil_defaultlib.pixl_top_virtual
+Compiling module xil_defaultlib.tb_statemachine
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_statemachine_behav

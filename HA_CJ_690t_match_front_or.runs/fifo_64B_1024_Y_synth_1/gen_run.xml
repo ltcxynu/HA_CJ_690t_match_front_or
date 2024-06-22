@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="fifo_64B_1024_Y_synth_1" LaunchPart="xc7vx690tffg1157-2" LaunchTime="1718158658">
+  <File Type="PA-TCL" Name="fifo_64B_1024_Y.tcl"/>
+  <File Type="REPORTS-TCL" Name="fifo_64B_1024_Y_reports.tcl"/>
+  <File Type="RDS-RDS" Name="fifo_64B_1024_Y.vds"/>
+  <File Type="RDS-UTIL" Name="fifo_64B_1024_Y_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="fifo_64B_1024_Y_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="fifo_64B_1024_Y.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fifo_64B_1024_Y">
+    <File Path="$PSRCDIR/sources_1/ip/fifo_64B_1024_Y/fifo_64B_1024_Y.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HA-CJ_v1.00/SF51_JR6101_A1.srcs/sources_1/ip/fifo_64B_1024_Y/fifo_64B_1024_Y.xci"/>
+        <Attr Name="ImportTime" Val="1718158429"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="fifo_64B_1024_Y"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fifo_64B_1024_Y">
+    <File Path="$PSRCDIR/sources_1/ip/fifo_64B_1024_Y/fifo_64B_1024_Y.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../HA-CJ_v1.00/SF51_JR6101_A1.srcs/sources_1/ip/fifo_64B_1024_Y/fifo_64B_1024_Y.xci"/>
+        <Attr Name="ImportTime" Val="1718158429"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="fifo_64B_1024_Y"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Jun 13 13:11:55 2024
+# Process ID: 7596
+# Current directory: E:/study/shixi/690t/HA_CJ_690t_match/HA_CJ_690t_match/HA_CJ_690t_match.runs/aurora_64b66b_0_synth_1
+# Command line: vivado.exe -log aurora_64b66b_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source aurora_64b66b_0.tcl
+# Log file: E:/study/shixi/690t/HA_CJ_690t_match/HA_CJ_690t_match/HA_CJ_690t_match.runs/aurora_64b66b_0_synth_1/aurora_64b66b_0.vds
+# Journal file: E:/study/shixi/690t/HA_CJ_690t_match/HA_CJ_690t_match/HA_CJ_690t_match.runs/aurora_64b66b_0_synth_1\vivado.jou
+# Running On: LAPTOP-INPBU3O4, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 14877 MB
+#-----------------------------------------------------------
+source aurora_64b66b_0.tcl -notrace

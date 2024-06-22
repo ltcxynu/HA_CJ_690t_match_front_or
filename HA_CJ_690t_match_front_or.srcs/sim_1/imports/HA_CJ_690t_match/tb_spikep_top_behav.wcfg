@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_statemachine_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_statemachine" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="214,328.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="218,118.001 ns"></ZoomEndTime>
+      <Cursor1Time time="214,959.666 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="347"></NameColumnWidth>
+      <ValueColumnWidth column_width="143"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/resetz_i" type="logic">
+      <obj_property name="ElementShortName">resetz_i</obj_property>
+      <obj_property name="ObjectShortName">resetz_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pp_ram_wr_done_i" type="logic">
+      <obj_property name="ElementShortName">pp_ram_wr_done_i</obj_property>
+      <obj_property name="ObjectShortName">pp_ram_wr_done_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pp_ram_rd_done_i" type="logic">
+      <obj_property name="ElementShortName">pp_ram_rd_done_i</obj_property>
+      <obj_property name="ObjectShortName">pp_ram_rd_done_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pp_ram_full_o" type="logic">
+      <obj_property name="ElementShortName">pp_ram_full_o</obj_property>
+      <obj_property name="ObjectShortName">pp_ram_full_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pp_ram_empty_o" type="logic">
+      <obj_property name="ElementShortName">pp_ram_empty_o</obj_property>
+      <obj_property name="ObjectShortName">pp_ram_empty_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_raddr_i" type="array">
+      <obj_property name="ElementShortName">pix_raddr_i[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_raddr_i[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_rd_i" type="logic">
+      <obj_property name="ElementShortName">pix_rd_i</obj_property>
+      <obj_property name="ObjectShortName">pix_rd_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_waddr_i" type="array">
+      <obj_property name="ElementShortName">pix_waddr_i[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_waddr_i[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_wdata_i" type="array">
+      <obj_property name="ElementShortName">pix_wdata_i[511:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_wdata_i[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_wr_i" type="logic">
+      <obj_property name="ElementShortName">pix_wr_i</obj_property>
+      <obj_property name="ObjectShortName">pix_wr_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_rdata_o" type="array">
+      <obj_property name="ElementShortName">pix_rdata_o[511:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_rdata_o[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_mem_raddr" type="array">
+      <obj_property name="ElementShortName">pix_mem_raddr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_mem_raddr[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_mem_rd_n" type="logic">
+      <obj_property name="ElementShortName">pix_mem_rd_n</obj_property>
+      <obj_property name="ObjectShortName">pix_mem_rd_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_mem_rdata" type="array">
+      <obj_property name="ElementShortName">pix_mem_rdata[511:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_mem_rdata[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_mem_waddr" type="array">
+      <obj_property name="ElementShortName">pix_mem_waddr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_mem_waddr[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_mem_wdata" type="array">
+      <obj_property name="ElementShortName">pix_mem_wdata[511:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_mem_wdata[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_mem_wr_n" type="logic">
+      <obj_property name="ElementShortName">pix_mem_wr_n</obj_property>
+      <obj_property name="ObjectShortName">pix_mem_wr_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_pp_ram0_empty" type="logic">
+      <obj_property name="ElementShortName">pix_pp_ram0_empty</obj_property>
+      <obj_property name="ObjectShortName">pix_pp_ram0_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/pix_pp_ram0_full" type="logic">
+      <obj_property name="ElementShortName">pix_pp_ram0_full</obj_property>
+      <obj_property name="ObjectShortName">pix_pp_ram0_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1/VA" type="array">
+      <obj_property name="ElementShortName">VA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">VA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/resetz_i" type="logic">
+      <obj_property name="ElementShortName">resetz_i</obj_property>
+      <obj_property name="ObjectShortName">resetz_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pp_ram_wr_done_i" type="logic">
+      <obj_property name="ElementShortName">pp_ram_wr_done_i</obj_property>
+      <obj_property name="ObjectShortName">pp_ram_wr_done_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pp_ram_rd_done_i" type="logic">
+      <obj_property name="ElementShortName">pp_ram_rd_done_i</obj_property>
+      <obj_property name="ObjectShortName">pp_ram_rd_done_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pp_ram_full_o" type="logic">
+      <obj_property name="ElementShortName">pp_ram_full_o</obj_property>
+      <obj_property name="ObjectShortName">pp_ram_full_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pp_ram_empty_o" type="logic">
+      <obj_property name="ElementShortName">pp_ram_empty_o</obj_property>
+      <obj_property name="ObjectShortName">pp_ram_empty_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_raddr_i" type="array">
+      <obj_property name="ElementShortName">pix_raddr_i[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_raddr_i[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_rd_i" type="logic">
+      <obj_property name="ElementShortName">pix_rd_i</obj_property>
+      <obj_property name="ObjectShortName">pix_rd_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_waddr_i" type="array">
+      <obj_property name="ElementShortName">pix_waddr_i[8:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_waddr_i[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_wdata_i" type="array">
+      <obj_property name="ElementShortName">pix_wdata_i[511:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_wdata_i[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_wr_i" type="logic">
+      <obj_property name="ElementShortName">pix_wr_i</obj_property>
+      <obj_property name="ObjectShortName">pix_wr_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_rdata_o" type="array">
+      <obj_property name="ElementShortName">pix_rdata_o[511:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_rdata_o[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_mem_raddr" type="array">
+      <obj_property name="ElementShortName">pix_mem_raddr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_mem_raddr[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_mem_rd_n" type="logic">
+      <obj_property name="ElementShortName">pix_mem_rd_n</obj_property>
+      <obj_property name="ObjectShortName">pix_mem_rd_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_mem_rdata" type="array">
+      <obj_property name="ElementShortName">pix_mem_rdata[511:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_mem_rdata[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_mem_waddr" type="array">
+      <obj_property name="ElementShortName">pix_mem_waddr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_mem_waddr[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_mem_wdata" type="array">
+      <obj_property name="ElementShortName">pix_mem_wdata[511:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_mem_wdata[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_mem_wr_n" type="logic">
+      <obj_property name="ElementShortName">pix_mem_wr_n</obj_property>
+      <obj_property name="ObjectShortName">pix_mem_wr_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_pp_ram0_empty" type="logic">
+      <obj_property name="ElementShortName">pix_pp_ram0_empty</obj_property>
+      <obj_property name="ObjectShortName">pix_pp_ram0_empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/pix_pp_ram0_full" type="logic">
+      <obj_property name="ElementShortName">pix_pp_ram0_full</obj_property>
+      <obj_property name="ObjectShortName">pix_pp_ram0_full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_statemachine/dut/u_pp_pix1_downSampling/VA" type="array">
+      <obj_property name="ElementShortName">VA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">VA[31:0]</obj_property>
+   </wvobject>
+</wave_config>

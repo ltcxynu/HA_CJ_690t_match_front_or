@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Jun 22 19:45:38 2024
+# Process ID: 12784
+# Current directory: E:/я╦ювобть/HA_CJ_690t_match_front_or
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34276 E:\я╦ювобть\HA_CJ_690t_match_front_or\HA_CJ_690t_match_front_or.xpr
+# Log file: E:/я╦ювобть/HA_CJ_690t_match_front_or/vivado.log
+# Journal file: E:/я╦ювобть/HA_CJ_690t_match_front_or\vivado.jou
+# Running On: MOOS, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 16, Host memory: 16894 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/я╦ювобть/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.xpr
+update_compile_order -fileset sources_1

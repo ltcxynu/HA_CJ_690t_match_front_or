@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../HA_CJ_690t_match_front_or.srcs/sources_1/ip/clk_wiz_1" --include "../../../../HA_CJ_690t_match_front_or.srcs/sources_1/ip/clk_wiz_0" --include "../../../../HA_CJ_690t_match_front_or.srcs/sources_1/ip/clk_wiz_2" \
+"../../../../HA_CJ_690t_match_front_or.srcs/sources_1/ip/ila_2/sim/ila_2.v" \
+"../../../../HA_CJ_690t_match_front_or.srcs/sources_1/ip/vio_2/sim/vio_2.v" \
+"../../../../HA_CJ_690t_match_front_or.srcs/sources_1/ip/fifo512bit_1k/sim/fifo512bit_1k.v" \
+"../../../../HA_CJ_690t_match_front_or.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1_clk_wiz.v" \
+"../../../../HA_CJ_690t_match_front_or.srcs/sources_1/ip/clk_wiz_1/clk_wiz_1.v" \
+"../../../../HA_CJ_690t_match_front_or.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../HA_CJ_690t_match_front_or.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/mem_1r1w_2000x509.v" \
+"../../../../HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pixl_top_virtual.v" \
+"../../../../HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pp_pix.v" \
+"../../../../HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pp_ram2_r_w_ctrl.v" \
+"../../../../HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/imports/code/spi_config.v" \
+"../../../../HA_CJ_690t_match_front_or.srcs/sim_1/tb_statemachine.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

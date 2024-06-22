@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Jun 22 10:19:11 2024
+# Process ID: 15896
+# Current directory: E:/shixi/prj/HA_CJ_690t_match/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.runs/synth_1
+# Command line: vivado.exe -log SF51_JR6101_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SF51_JR6101_top.tcl
+# Log file: E:/shixi/prj/HA_CJ_690t_match/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.runs/synth_1/SF51_JR6101_top.vds
+# Journal file: E:/shixi/prj/HA_CJ_690t_match/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.runs/synth_1\vivado.jou
+# Running On: DESKTOP-PF8MJD1, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 10, Host memory: 34163 MB
+#-----------------------------------------------------------
+source SF51_JR6101_top.tcl -notrace

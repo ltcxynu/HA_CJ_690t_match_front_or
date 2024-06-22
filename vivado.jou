@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Jun 22 19:47:15 2024
+# Process ID: 27192
+# Current directory: E:/project_fpga/HA_CJ_690t_match_front_or
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32248 E:\project_fpga\HA_CJ_690t_match_front_or\HA_CJ_690t_match_front_or.xpr
+# Log file: E:/project_fpga/HA_CJ_690t_match_front_or/vivado.log
+# Journal file: E:/project_fpga/HA_CJ_690t_match_front_or\vivado.jou
+# Running On: MOOS, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 16, Host memory: 16894 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_690t_match [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation

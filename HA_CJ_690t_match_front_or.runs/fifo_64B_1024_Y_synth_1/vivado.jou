@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Jun 12 10:17:42 2024
+# Process ID: 5760
+# Current directory: E:/study/shixi/690t/HA-CJ_v1.00/SF51_JR6101_A1.runs/fifo_64B_1024_Y_synth_1
+# Command line: vivado.exe -log fifo_64B_1024_Y.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo_64B_1024_Y.tcl
+# Log file: E:/study/shixi/690t/HA-CJ_v1.00/SF51_JR6101_A1.runs/fifo_64B_1024_Y_synth_1/fifo_64B_1024_Y.vds
+# Journal file: E:/study/shixi/690t/HA-CJ_v1.00/SF51_JR6101_A1.runs/fifo_64B_1024_Y_synth_1\vivado.jou
+# Running On: LAPTOP-INPBU3O4, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 14877 MB
+#-----------------------------------------------------------
+source fifo_64B_1024_Y.tcl -notrace

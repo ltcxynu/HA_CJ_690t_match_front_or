@@ -1,0 +1,115 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sat Jun 22 19:47:15 2024
+# Process ID: 27192
+# Current directory: E:/project_fpga/HA_CJ_690t_match_front_or
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32248 E:\project_fpga\HA_CJ_690t_match_front_or\HA_CJ_690t_match_front_or.xpr
+# Log file: E:/project_fpga/HA_CJ_690t_match_front_or/vivado.log
+# Journal file: E:/project_fpga/HA_CJ_690t_match_front_or\vivado.jou
+# Running On: MOOS, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 16, Host memory: 16894 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at D:/xilinx/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'E:/shixi/prj/HA_CJ_690t_match/HA_CJ_690t_match_front_or' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2021.2/data/ip'.
+open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1446.598 ; gain = 0.000
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v
+update_compile_order -fileset sim_1
+set_property top tb_690t_match [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_690t_match'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Runs 36-567] Checking/generating simulation output products for IPs/BDs (if any)...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/xilinx/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/xilinx/Vivado/2021.2/data/xsim/xsim.ini' copied to run dir:'E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_690t_match' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_690t_match_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/mem_1r1w_2000x509.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_1r1w_2000x512
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pp_pix.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pp_pix
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sources_1/imports/sources_1/new/pp_ram2_r_w_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pp_ram2_r_w_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_690t_match
+WARNING: [VRFC 10-2659] decimal constant 10000000000000 is too large, should be smaller than 2147483648; using 1316134912 instead [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:78]
+INFO: [VRFC 10-2458] undeclared symbol clk125m, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:446]
+INFO: [VRFC 10-2458] undeclared symbol rstn, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:447]
+INFO: [VRFC 10-2458] undeclared symbol pix_waddr1, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:454]
+INFO: [VRFC 10-2458] undeclared symbol data1_frome_fifo, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:455]
+INFO: [VRFC 10-2458] undeclared symbol data1_frome_fifo_en, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:456]
+WARNING: [VRFC 10-3248] data object 'pix_rdata1_odd' is already declared [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:499]
+WARNING: [VRFC 10-3703] second declaration of 'pix_rdata1_odd' ignored [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:499]
+WARNING: [VRFC 10-3248] data object 'pix_rdata1_even' is already declared [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:500]
+WARNING: [VRFC 10-3703] second declaration of 'pix_rdata1_even' ignored [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:500]
+INFO: [VRFC 10-2458] undeclared symbol pix_waddr2, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:527]
+INFO: [VRFC 10-2458] undeclared symbol data2_frome_fifo, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:528]
+INFO: [VRFC 10-2458] undeclared symbol data2_frome_fifo_en, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:529]
+INFO: [VRFC 10-2458] undeclared symbol pix_rdata2_odd, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:530]
+INFO: [VRFC 10-2458] undeclared symbol pix_rdata2_even, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:544]
+INFO: [VRFC 10-2458] undeclared symbol pix_waddr3, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:600]
+INFO: [VRFC 10-2458] undeclared symbol data3_frome_fifo, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:601]
+INFO: [VRFC 10-2458] undeclared symbol data3_frome_fifo_en, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:602]
+INFO: [VRFC 10-2458] undeclared symbol wr_done4, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:667]
+INFO: [VRFC 10-2458] undeclared symbol pix_rd_done4, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:668]
+INFO: [VRFC 10-2458] undeclared symbol pix_raddr4, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:671]
+INFO: [VRFC 10-2458] undeclared symbol pix_rd4, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:672]
+INFO: [VRFC 10-2458] undeclared symbol pix_waddr4, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:673]
+INFO: [VRFC 10-2458] undeclared symbol data4_frome_fifo, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:674]
+INFO: [VRFC 10-2458] undeclared symbol data4_frome_fifo_en, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:675]
+INFO: [VRFC 10-2458] undeclared symbol pix_rdata4, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:707]
+INFO: [VRFC 10-2458] undeclared symbol pix_empty4, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:708]
+INFO: [VRFC 10-2458] undeclared symbol pp_ram_full4, assumed default net type wire [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:709]
+WARNING: [VRFC 10-3380] identifier 'FR' is used before its declaration [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:126]
+ERROR: [VRFC 10-3186] cannot index into non-array type wire for 'data1_frome_fifo' [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:492]
+ERROR: [VRFC 10-3186] cannot index into non-array type wire for 'data2_frome_fifo' [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:565]
+ERROR: [VRFC 10-3186] cannot index into non-array type wire for 'data3_frome_fifo' [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:638]
+ERROR: [VRFC 10-2989] 'cnt_wr4' is not declared [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:695]
+ERROR: [VRFC 10-2989] 'cnt_wr4' is not declared [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:698]
+ERROR: [VRFC 10-2989] 'cnt_wr4' is not declared [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:699]
+ERROR: [VRFC 10-2989] 'cnt_wr4' is not declared [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:702]
+ERROR: [VRFC 10-2989] 'cnt_wr4' is not declared [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:710]
+ERROR: [VRFC 10-3186] cannot index into non-array type wire for 'data4_frome_fifo' [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:711]
+ERROR: [VRFC 10-2865] module 'tb_690t_match' ignored due to previous errors [E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.srcs/sim_1/690t_match_tb.v:22]
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-99] Step results log file:'E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'E:/project_fpga/HA_CJ_690t_match_front_or/HA_CJ_690t_match_front_or.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1514.527 ; gain = 0.562
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 22 20:06:54 2024...
